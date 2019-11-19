@@ -107,8 +107,14 @@ body {
   clear: both;
 }
 
-a:visited {
-  color: #ec7063;
+#logo {
+  text-decoration: none;
+  color: black;
+}
+
+#wantToFindOutMore {
+  color: #54cdff;
+  text-decoration: none;
 }
 
 footer {
