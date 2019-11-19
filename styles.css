@@ -91,8 +91,16 @@ body {
   display: block;
   padding: 90px 50px;
   text-align: center;
-  background-color: #fe5701;
   font-size: 125%;
+  line-height: 2;
+}
+
+#projects-div {
+  background-color: #fe5701;
+}
+
+#resume-div {
+  background-color: #54cdff;
 }
 
 .clear {
