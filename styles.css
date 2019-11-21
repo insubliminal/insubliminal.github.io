@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10%;
+  font-size: 1em;
   margin: 0px;
   padding: 0px;
 }
@@ -43,10 +43,14 @@ body {
 
 .navBar li a {
   color: black;
-  font-size: 16px;
+  font-size: 1em;
   text-decoration: none;
   line-height: 70px;
   padding: 20px 25px;
+}
+
+li:hover {
+  text-decoration: underline;
 }
 
 .navBar p {
@@ -54,7 +58,7 @@ body {
   position: absolute;
   left: 80px;
   top: 30px;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .contentDiv {
@@ -74,6 +78,7 @@ body {
   position: relative;
   top: 45px;
   left: 10px;
+  font-size: 2em;
 }
 
 .writeoverImage {
@@ -91,7 +96,7 @@ body {
   display: block;
   padding: 90px 50px;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.2em;
   line-height: 2;
 }
 
@@ -122,5 +127,5 @@ footer {
   margin: 0 auto;
   padding: 30px;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75em;
 }
