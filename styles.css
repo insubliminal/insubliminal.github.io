@@ -108,6 +108,19 @@ li:hover {
   background-color: #54cdff;
 }
 
+#contact-div {
+  background-color: blanchedalmond;
+}
+
+#about-div {
+  background-color: #b0614e;
+}
+
+#box {
+  background-color: blanchedalmond;
+  visibility: hidden;
+}
+
 .clear {
   clear: both;
 }
