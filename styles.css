@@ -205,19 +205,19 @@ footer {
     border-top: none;
   }
 
+  #ildangbaek {
+    text-align: center;
+    padding: 0px 120px 150px 120px;
+  }
+
   #ildangbaek img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 0px 0px;
   }
 
-  #ildangbaek h1 {
-    float: left;
-    position: relative;
-    left: 30px;
-    top: 60px;
-  }
   /* Projects */
 }
 
