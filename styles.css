@@ -119,6 +119,7 @@ li:hover {
     left: 30px;
     top: 190px;
   }
+
   #ildangbaek p {
     position: relative;
     left: 30px;
@@ -132,6 +133,13 @@ li:hover {
     top: 190px;
     width: 80%;
     color: #54cdff;
+  }
+
+  #ildangbaek-p-mobile {
+    display: none;
+  }
+  #ildangbaek-p-desktop {
+    display: block;
   }
 }
 /* Projects */
@@ -216,6 +224,13 @@ footer {
     margin-right: auto;
     width: 50%;
     padding: 0px 0px;
+  }
+
+  #ildangbaek-p-mobile {
+    display: block;
+  }
+  #ildangbaek-p-desktop {
+    display: none;
   }
 
   /* Projects */
