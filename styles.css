@@ -106,33 +106,43 @@ li:hover {
 
 /* Projects */
 
-@media (min-width: 992px) {
+@media (min-width: 993px) {
+  #center-div {
+    width: 100%;
+    text-align: center;
+  }
+
+  #ildangbaek {
+    display: inline-block;
+    text-align: left;
+  }
+
   #ildangbaek img {
     float: left;
     width: 500px;
-    left: 300px;
-    margin: 50px 20px 0px 50px;
+    margin: 50px 0px 50px 0px;
   }
 
   #ildangbaek h1 {
     position: relative;
     left: 30px;
     top: 190px;
+    width: 900px;
   }
 
   #ildangbaek p {
     position: relative;
     left: 30px;
     top: 190px;
-    width: 80%;
+    width: 900px;
   }
 
   #ildangbaek h3 {
     position: relative;
     left: 30px;
     top: 190px;
-    width: 80%;
     color: #54cdff;
+    width: 900px;
   }
 
   #ildangbaek-p-mobile {
@@ -147,7 +157,7 @@ li:hover {
 /* Heading with a coloured box */
 .heading-div {
   display: block;
-  padding: 90px 50px;
+  padding: 90px 0px;
   text-align: center;
   font-size: 1.2em;
   line-height: 2;
@@ -199,7 +209,7 @@ footer {
 }
 
 .contentDiv {
-  padding: 10px 20px;
+  margin: 10px 20px;
 }
 
 /* Site Wide */
@@ -210,7 +220,7 @@ footer {
   /* Projects */
 
   #projects-div {
-    border-top: none;
+    border-top: 1px solid black;
   }
 
   #ildangbaek {
