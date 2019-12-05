@@ -157,7 +157,7 @@ li:hover {
 /* Heading with a coloured box */
 .heading-div {
   display: block;
-  padding: 90px 0px;
+  padding: 90px 20px;
   text-align: center;
   font-size: 1.2em;
   line-height: 2;
@@ -221,11 +221,13 @@ footer {
 
   #projects-div {
     border-top: 1px solid black;
+    font-size: 0.9em;
   }
 
   #ildangbaek {
-    text-align: center;
     padding: 0px 120px 150px 120px;
+    text-align: center;
+    font-size: 0.9em;
   }
 
   #ildangbaek img {
