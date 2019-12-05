@@ -5,6 +5,7 @@ body {
   padding: 0px;
 }
 
+/* Nav Bar */
 #nav-container {
   margin: 0px auto;
   height: 90px;
@@ -61,22 +62,26 @@ li:hover {
   font-size: 1em;
 }
 
-.contentDiv {
-  padding: 10px 20px;
+#logo {
+  text-decoration: none;
+  color: black;
 }
 
-.headerImg {
+/* Nav Bar */
+
+/* Index */
+
+#myFace {
   float: left;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-right: 20px;
-  top: 150px;
+  margin: 30px 20px 0px 0px;
 }
 
 .headerH1 {
   position: relative;
-  top: 45px;
+  top: 72px;
   left: 10px;
   font-size: 2em;
 }
@@ -92,6 +97,46 @@ li:hover {
   padding: 190px;
 }
 
+#wantToFindOutMore {
+  color: #54cdff;
+  text-decoration: none;
+}
+
+/* Index */
+
+/* Projects */
+
+@media (min-width: 992px) {
+  #ildangbaek img {
+    float: left;
+    width: 500px;
+    left: 300px;
+    margin: 50px 20px 0px 50px;
+  }
+
+  #ildangbaek h1 {
+    position: relative;
+    left: 30px;
+    top: 190px;
+  }
+  #ildangbaek p {
+    position: relative;
+    left: 30px;
+    top: 190px;
+    width: 80%;
+  }
+
+  #ildangbaek h3 {
+    position: relative;
+    left: 30px;
+    top: 190px;
+    width: 80%;
+    color: #54cdff;
+  }
+}
+/* Projects */
+
+/* Heading with a coloured box */
 .heading-div {
   display: block;
   padding: 90px 50px;
@@ -101,7 +146,8 @@ li:hover {
 }
 
 #projects-div {
-  background-color: #fe5701;
+  /*background-color: #fe5701; */
+  border-top: 1px solid black;
 }
 
 #resume-div {
@@ -116,24 +162,18 @@ li:hover {
   background-color: #b0614e;
 }
 
+/* Heading with a coloured box */
+
+/* Test stuff */
+
 #box {
   background-color: blanchedalmond;
   visibility: hidden;
 }
 
-.clear {
-  clear: both;
-}
+/* Test stuff */
 
-#logo {
-  text-decoration: none;
-  color: black;
-}
-
-#wantToFindOutMore {
-  color: #54cdff;
-  text-decoration: none;
-}
+/* Footer */
 
 footer {
   display: block;
@@ -143,10 +183,52 @@ footer {
   font-size: 0.75em;
 }
 
-@media (max-width: 800px) {
+/* Footer */
+
+/* Site Wide */
+.clear {
+  clear: both;
+}
+
+.contentDiv {
+  padding: 10px 20px;
+}
+
+/* Site Wide */
+
+/* For Mobile Devices */
+
+@media (max-width: 992px) {
   body {
     margin: 0px 80px 0px 80px;
     padding: 0px;
     font-size: 0.5em;
   }
+
+  .navBar {
+    display: none;
+  }
+
+  /* Projects */
+
+  #projects-div {
+    border-top: none;
+  }
+
+  #ildangbaek img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #ildangbaek h1 {
+    float: left;
+    position: relative;
+    left: 30px;
+    top: 60px;
+  }
+  /* Projects */
 }
+
+/* For Mobile Devices */
