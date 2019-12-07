@@ -130,6 +130,10 @@ li:hover {
     width: 900px;
   }
 
+  #limtexteditor-img {
+    width: 600px;
+  }
+
   #limtexteditor-text {
     position: relative;
     left: 30px;
@@ -137,16 +141,16 @@ li:hover {
     width: 900px;
   }
 
+  #makemymeal-img {
+    width: 300px;
+    padding: 0px 30px 0px 100px;
+  }
+
   #makemymeal-text {
     position: relative;
     left: 50px;
     top: 190px;
     width: 900px;
-  }
-
-  #makemymeal-img {
-    width: 300px;
-    padding: 0px 30px 0px 100px;
   }
 
   .project-p-mobile {
@@ -238,8 +242,19 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
     padding: 0px 0px;
+  }
+
+  #ildangbaek-img {
+    width: 40%;
+  }
+
+  #limtexteditor-img {
+    width: 60%;
+  }
+
+  #makemymeal-img {
+    width: 27%;
   }
 
   .project-p-mobile {
@@ -248,11 +263,6 @@ footer {
   .project-p-desktop {
     display: none;
   }
-
-  #makemymeal-img {
-    width: 20%;
-  }
-
   /* Projects */
 }
 
