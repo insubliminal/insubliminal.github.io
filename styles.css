@@ -112,43 +112,47 @@ li:hover {
     text-align: center;
   }
 
-  #ildangbaek {
+  .project-div {
     display: inline-block;
     text-align: left;
   }
 
-  #ildangbaek img {
+  .project-div img {
     float: left;
     width: 500px;
     margin: 50px 0px 50px 0px;
   }
 
-  #ildangbaek h1 {
+  #ildangbaek-text {
     position: relative;
-    left: 30px;
+    left: 50px;
     top: 190px;
     width: 900px;
   }
 
-  #ildangbaek p {
+  #limtexteditor-text {
     position: relative;
     left: 30px;
+    top: 40px;
+    width: 900px;
+  }
+
+  #makemymeal-text {
+    position: relative;
+    left: 50px;
     top: 190px;
     width: 900px;
   }
 
-  #ildangbaek h3 {
-    position: relative;
-    left: 30px;
-    top: 190px;
-    color: #54cdff;
-    width: 900px;
+  #makemymeal-img {
+    width: 300px;
+    padding: 0px 30px 0px 100px;
   }
 
-  #ildangbaek-p-mobile {
+  .project-p-mobile {
     display: none;
   }
-  #ildangbaek-p-desktop {
+  .project-p-desktop {
     display: block;
   }
 }
@@ -224,25 +228,29 @@ footer {
     font-size: 0.9em;
   }
 
-  #ildangbaek {
-    padding: 0px 120px 150px 120px;
+  .project-div {
+    padding: 0px 120px 30px 120px;
     text-align: center;
     font-size: 0.9em;
   }
 
-  #ildangbaek img {
+  .project-div img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 30%;
     padding: 0px 0px;
   }
 
-  #ildangbaek-p-mobile {
+  .project-p-mobile {
     display: block;
   }
-  #ildangbaek-p-desktop {
+  .project-p-desktop {
     display: none;
+  }
+
+  #makemymeal-img {
+    width: 20%;
   }
 
   /* Projects */
