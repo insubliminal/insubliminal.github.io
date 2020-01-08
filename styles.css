@@ -67,7 +67,7 @@ li:hover {
   color: black;
 }
 
-/* Nav Bar */
+/* Nav Bar End */
 
 /* Index */
 
@@ -102,11 +102,39 @@ li:hover {
   text-decoration: none;
 }
 
-/* Index */
+/* Index End */
 
-/* Projects */
+/* About */
+
+#about-me-picture {
+  width: 200px;
+  border-radius: 50%;
+  left: 300px;
+  margin-left: 40px;
+  padding-right: 50px;
+}
+
+#about-me-table {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/* About End */
 
 @media (min-width: 993px) {
+  /* Index */
+
+  .navImagePadding {
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+  }
+
+  /* Index End */
+
+  /* Projects */
+
   #center-div {
     width: 100%;
     text-align: center;
@@ -119,8 +147,11 @@ li:hover {
 
   .project-div img {
     float: left;
-    width: 500px;
     margin: 50px 0px 50px 0px;
+  }
+
+  #ildangbaek-img {
+    width: 500px;
   }
 
   #ildangbaek-text {
@@ -160,8 +191,9 @@ li:hover {
   .project-p-desktop {
     display: block;
   }
+
+  /* Projects End */
 }
-/* Projects */
 
 /* Heading with a coloured box */
 .heading-div {
@@ -189,7 +221,7 @@ li:hover {
   background-color: #b0614e;
 }
 
-/* Heading with a coloured box */
+/* Heading with a coloured box End */
 
 /* Test stuff */
 
@@ -198,7 +230,7 @@ li:hover {
   visibility: hidden;
 }
 
-/* Test stuff */
+/* Test stuff End */
 
 /* Footer */
 
@@ -210,7 +242,7 @@ footer {
   font-size: 0.75em;
 }
 
-/* Footer */
+/* Footer End */
 
 /* Site Wide */
 .clear {
@@ -221,11 +253,19 @@ footer {
   margin: 10px 20px;
 }
 
-/* Site Wide */
+/* Site Wide End */
 
 /* For Mobile Devices */
 
 @media (max-width: 992px) {
+  /* Index */
+  .navImagePadding {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  /* Index End */
+
   /* Projects */
 
   #projects-div {
@@ -265,7 +305,7 @@ footer {
   .project-p-desktop {
     display: none;
   }
-  /* Projects */
+  /* Projects End */
 }
 
-/* For Mobile Devices */
+/* For Mobile Devices End */
