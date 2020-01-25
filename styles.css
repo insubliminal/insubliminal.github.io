@@ -121,80 +121,6 @@ li:hover {
 
 /* About End */
 
-@media (min-width: 993px) {
-  /* Index */
-
-  .navImagePadding {
-    width: 95%;
-    display: block;
-    margin: auto;
-    padding: 0px 0px 20px 0px;
-  }
-
-  /* Index End */
-
-  /* Projects */
-
-  #center-div {
-    width: 100%;
-    text-align: center;
-  }
-
-  .project-div {
-    display: inline-block;
-    text-align: left;
-  }
-
-  .project-div img {
-    float: left;
-    margin: 50px 0px 50px 0px;
-  }
-
-  #ildangbaek-img {
-    width: 500px;
-  }
-
-  #ildangbaek-text {
-    position: relative;
-    left: 50px;
-    top: 190px;
-    width: 900px;
-  }
-
-  #limtexteditor-img {
-    width: 600px;
-  }
-
-  #limtexteditor-text {
-    position: relative;
-    left: 30px;
-    top: 40px;
-    width: 900px;
-  }
-
-  #makemymeal-img {
-    width: 300px;
-    padding: 0px 30px 0px 100px;
-  }
-
-  #makemymeal-text {
-    position: relative;
-    left: 50px;
-    top: 190px;
-    width: 900px;
-  }
-
-  /* To make text for desktop users visible and mobile users invisible */
-  .project-p-mobile {
-    display: none;
-  }
-  .project-p-desktop {
-    display: block;
-  }
-
-  /* Projects End */
-}
-
 /* Heading with a coloured box */
 .heading-div {
   display: block;
@@ -255,15 +181,84 @@ footer {
 
 /* Site Wide End */
 
+
+
+/* For Desktop Devices */
+@media screen and (min-width: 993px) {
+  /* Index */
+
+  .navImagePadding {
+    width: 95%;
+    display: block;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+  }
+
+  /* Index End */
+
+  /* Projects */
+
+  #project-section {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project-div {
+    margin: auto;
+    width: 900px;
+  }
+
+  .project-div img {
+    padding: 50px 0px 50px 0px;
+    display: block;
+    width: 100%;
+    /*actual image width*/
+    height: auto;
+    /* maintain aspect ratio*/
+    margin: auto;
+    /*optional centering of image*/
+  }
+
+  #ildangbaek-img {
+    max-width: 500px;
+  }
+
+  #limtexteditor-img {
+    max-width: 600px;
+  }
+
+  #makemymeal-img {
+    max-width: 300px;
+  }
+
+  /* To make text for desktop users visible and mobile users invisible */
+  .project-p-mobile {
+    display: none;
+  }
+
+  .project-p-desktop {
+    display: block;
+  }
+
+  /* Projects End */
+}
+
+/* For Desktop Devices End */
+
 /* For Mobile Devices */
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
+
   /* Index */
   .navImagePadding {
     width: 100%;
     padding: 0px;
     margin: 0px;
   }
+
   /* Index End */
 
   /* Projects */
@@ -302,9 +297,11 @@ footer {
   .project-p-mobile {
     display: block;
   }
+
   .project-p-desktop {
     display: none;
   }
+
   /* Projects End */
 }
 
