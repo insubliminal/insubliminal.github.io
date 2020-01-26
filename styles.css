@@ -93,17 +93,6 @@ li:hover {
   padding: 0px 10px;
 }
 
-.writeoverImage {
-  position: absolute;
-  z-index: 1;
-}
-
-.centerGif {
-  display: block;
-  margin: 0 auto;
-  padding: 190px;
-}
-
 /* Index End */
 
 /* About */
@@ -184,12 +173,14 @@ footer {
 /* For Desktop Devices */
 @media screen and (min-width: 993px) {
 
-  /* Index */
-
+  /* Nav Bar */
   #navBar-mobile {
     display: none !important;
   }
 
+  /* Nav Bar End */
+
+  /* Index */
   /* Index End */
 
   /* Projects */
