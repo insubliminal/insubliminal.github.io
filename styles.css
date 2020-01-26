@@ -108,16 +108,18 @@ li:hover {
 /* About */
 
 #about-me-picture {
-  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
   border-radius: 50%;
-  left: 300px;
-  margin-left: 40px;
-  padding-right: 50px;
 }
 
-#about-me-table {
-  width: 100%;
-  background-color: #ffffff;
+.about-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
 
 /* About End */
@@ -285,7 +287,7 @@ footer {
   }
 
   .project-div {
-    padding: 0px 120px 30px 120px;
+    padding: 0px 20px 30px 20px;
     text-align: center;
     font-size: 0.9em;
   }
@@ -319,6 +321,31 @@ footer {
   }
 
   /* Projects End */
+
+  /* About Start */
+
+  #about-me-picture {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 0%;
+  }
+
+  .about-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content p,
+  .about-content h1 {
+    padding: 0px 40px;
+  }
+
+  /* About End */
 }
 
 /* For Mobile Devices End */
