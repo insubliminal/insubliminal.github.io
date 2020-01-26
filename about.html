@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Projects</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8 />
-    <meta name="viewport" content="width=device-width" , initial-scale="1" />
-    <link rel="icon" href="https://insubliminal.github.io/favicon.ico?v=2" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <a name="top" />
+<head>
+  <title>Projects</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8 />
+    <meta name=" viewport" content="width=device-width" , initial-scale="1" />
+  <link rel="icon" href="https://insubliminal.github.io/favicon.ico?v=2" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="text/javascript" src="nav-mobile.js"></script>
+</head>
 
-    <div class="navBar">
-      <div id="navBar-container">
-        <a href="index.html"
-          ><img src="images/pillar.jpg" width="10px" height="18px"
-        /></a>
-        <p><a id="logo" href="index.html">Insubliminal</a></p>
+<body>
+  <a name="top" />
 
-        <ul>
+  <div class="navBar">
+    <a href="index.html"><img src="images/pillar.jpg" width="10px" height="18px" /></a>
+    <p><a id="logo" href="index.html">Insubliminal</a></p>
+
+    <div id="navBar-container">
+      <ul>
+        <div class="project-p-desktop">
           <li><a href="resume.html">Resume</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
+        </div>
+        <div class="project-p-mobile">
+          <li><a href="#" id="menu-button" onclick="openNav()">Menu</a></li>
+        </div>
+      </ul>
     </div>
+  </div>
 
-    <div id="about-me-table">
-      <table
-        class="content"
-        align="center"
-        cellpadding="0px"
-        cellspacing="0px"
-        border="0px"
-      >
-        <tr>
-          <td>
-            <table
-              width="690px"
-              align="left"
-              border="0px"
-              cellpadding="0px"
-              cellspacing="0px"
-            >
-              <tr>
-                <td>
-                  <img id="about-me-picture" src="images/Me.png" />
-                </td>
-
-                <td>
-                  <table>
-                    <tr>
-                      <td>
-                        <h1>
-                          Insub Lim
-                        </h1>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
+  <div class="navBar" id="navBar-mobile">
+    <div id="navBar-container">
+      <ul>
+        <div>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </div>
+      </ul>
     </div>
+  </div>
 
-    <footer>
-      &copy; I don't own any of the pictures and other legal mumbo jumbo
-      Insubliminal 2019
-    </footer>
-  </body>
+  <div id="about-me-table">
+    <table class="content" align="center" cellpadding="0px" cellspacing="0px" border="0px">
+      <tr>
+        <td>
+          <table width="690px" align="left" border="0px" cellpadding="0px" cellspacing="0px">
+            <tr>
+              <td>
+                <img id="about-me-picture" src="images/Me.png" />
+              </td>
+
+              <td>
+                <table>
+                  <tr>
+                    <td>
+                      <h1>
+                        Insub Lim
+                      </h1>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    &copy; I don't own any of the pictures and other legal mumbo jumbo
+    Insubliminal 2019
+  </footer>
+</body>
+
 </html>

@@ -8,21 +8,40 @@
     <meta name=" viewport" content="width=device-width" , initial-scale="1" />
   <link rel="icon" href="https://insubliminal.github.io/favicon.ico?v=2" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="text/javascript" src="nav-mobile.js"></script>
 </head>
 
 <body>
   <a name="top" />
 
   <div class="navBar">
-    <div id="navBar-container">
-      <a href="index.html"><img src="images/pillar.jpg" width="10px" height="18px" /></a>
-      <p><a id="logo" href="index.html">Insubliminal</a></p>
+    <a href="index.html"><img src="images/pillar.jpg" width="10px" height="18px" /></a>
+    <p><a id="logo" href="index.html">Insubliminal</a></p>
 
+    <div id="navBar-container">
       <ul>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">About</a></li>
+        <div class="project-p-desktop">
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </div>
+        <div class="project-p-mobile">
+          <li><a href="#" id="menu-button" onclick="openNav()">Menu</a></li>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <div class="navBar" id="navBar-mobile">
+    <div id="navBar-container">
+      <ul>
+        <div>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </div>
       </ul>
     </div>
   </div>

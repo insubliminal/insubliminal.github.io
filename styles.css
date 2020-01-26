@@ -7,33 +7,24 @@ body {
 
 /* Nav Bar */
 #nav-container {
-  margin: 0px auto;
-  height: 90px;
-  position: relative;
+  display: flex;
 }
 
 .navBar {
   background-color: transparent;
-  width: 95%;
-  height: 70px;
-  min-width: 690px;
-  min-height: 30px;
-  text-align: right;
-  padding: 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  text-decoration: none;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 .navBar img {
-  top: 46px;
-  left: 60px;
+  top: 42px;
+  left: 40px;
   z-index: 999;
   position: absolute;
-}
-
-.navBar ul {
-  padding: 0px;
-  margin: 0px;
-  display: inline-block;
-  vertical-align: top;
 }
 
 .navBar li {
@@ -57,9 +48,15 @@ li:hover {
 .navBar p {
   text-align: left;
   position: absolute;
-  left: 80px;
-  top: 30px;
+  left: 60px;
+  top: 26px;
   font-size: 1em;
+}
+
+#navBar-mobile {
+  flex-direction: column;
+  width: 96%;
+  display: none;
 }
 
 #logo {
@@ -181,17 +178,13 @@ footer {
 
 /* Site Wide End */
 
-
-
 /* For Desktop Devices */
 @media screen and (min-width: 993px) {
+
   /* Index */
 
-  .navImagePadding {
-    width: 95%;
-    display: block;
-    margin: auto;
-    padding: 0px 0px 20px 0px;
+  #navBar-mobile {
+    display: none !important;
   }
 
   /* Index End */
@@ -223,7 +216,7 @@ footer {
   }
 
   #ildangbaek-img {
-    max-width: 500px;
+    max-width: 450px;
   }
 
   #limtexteditor-img {
@@ -252,12 +245,27 @@ footer {
 
 @media screen and (max-width: 992px) {
 
-  /* Index */
-  .navImagePadding {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+  /* Nav Bar */
+
+  .navBar {
+    height: 102px;
   }
+
+  .navBar img {
+    display: none;
+  }
+
+  .navBar p {
+    font-size: 2.3em;
+    position: absolute;
+    left: 50%;
+    margin-left: -90px;
+    top: -7.5px;
+  }
+
+  /* Nav Bar End */
+
+  /* Index */
 
   /* Index End */
 
