@@ -5,6 +5,11 @@ body {
   padding: 0px;
 }
 
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
 /* Nav Bar */
 #nav-container {
   display: flex;
@@ -14,10 +19,9 @@ body {
   background-color: transparent;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
   text-align: center;
   text-decoration: none;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
 }
 
 .navBar img {
@@ -37,7 +41,7 @@ body {
   color: black;
   font-size: 1em;
   text-decoration: none;
-  line-height: 70px;
+  line-height: 100px;
   padding: 20px 25px;
 }
 
@@ -54,9 +58,9 @@ li:hover {
 }
 
 #navBar-mobile {
-  flex-direction: column;
-  width: 96%;
   display: none;
+  justify-content: center;
+  align-content: center;
 }
 
 #logo {
@@ -247,9 +251,7 @@ footer {
 
   /* Nav Bar */
 
-  .navBar {
-    height: 102px;
-  }
+
 
   .navBar img {
     display: none;
@@ -259,8 +261,16 @@ footer {
     font-size: 2.3em;
     position: absolute;
     left: 50%;
-    margin-left: -90px;
+    margin-left: -97px;
     top: -7.5px;
+  }
+
+  .navBar li {
+    display: list-item;
+  }
+
+  #navBar-mobile {
+    display: none;
   }
 
   /* Nav Bar End */
