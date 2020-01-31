@@ -10,6 +10,11 @@ ul {
   margin: 0px;
 }
 
+.links {
+  color: #54cdff;
+  text-decoration: none;
+}
+
 /* Nav Bar */
 #nav-container {
   display: flex;
@@ -72,6 +77,23 @@ li:hover {
 
 /* Index */
 
+.full-screen-image {
+  background-color: black;
+  background-size: 100%;
+  background-position: center;
+  height: 750px;
+  background-repeat: no-repeat;
+}
+
+#index-image1 {
+  background-image: url("images/homepage4.jpg");
+}
+
+#index-image2 {
+  background-image: url("images/homepage2.jpg");
+  background-position: bottom;
+}
+
 .contentDiv {
   display: flex;
   justify-content: center;
@@ -79,6 +101,7 @@ li:hover {
   flex-direction: column;
   text-align: center;
   margin: 0px 20px;
+  height: 450px;
 }
 
 #myFace {
@@ -87,6 +110,7 @@ li:hover {
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: gray 0 0 10px;
 }
 
 .headerH1 {
@@ -94,6 +118,42 @@ li:hover {
 }
 
 /* Index End */
+
+/* Resume */
+.resume-skill-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-skill-container>div {
+  text-align: center;
+  /* Makes each flex item same size*/
+  flex: 1;
+  margin: 30px 9px;
+}
+
+.resume-skill-container>div img {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.resume-skill-container>div p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#resume-qual {
+  border-top: 1px solid black;
+  background-color: transparent;
+}
+
+/* Resume End */
+
 
 /* About */
 
@@ -116,20 +176,18 @@ li:hover {
 
 /* Heading with a coloured box */
 .heading-div {
-  display: block;
-  padding: 90px 20px;
+  padding: 90px 10px;
   text-align: center;
   font-size: 1.2em;
   line-height: 2;
 }
 
 #projects-div {
-  /*background-color: #fe5701; */
   border-top: 1px solid black;
 }
 
 #resume-div {
-  background-color: #54cdff;
+  background-color: transparent;
 }
 
 #contact-div {
@@ -179,6 +237,12 @@ footer {
   }
 
   /* Nav Bar End */
+
+  /*Resume*/
+
+  .resume-skill-container {
+    background-color: #F1F1F1;
+  }
 
   /* Index */
   /* Index End */
@@ -265,13 +329,49 @@ footer {
 
   /* Index */
 
+  .full-screen-image {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   #myFace {
     width: 250px;
   }
 
-
-
   /* Index End */
+
+  /* Resume */
+
+  .resume-skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .resume-skill-container>div {
+    text-align: center;
+    min-width: 320px;
+    width: 70%;
+    height: 320px;
+    margin: 2px 0px;
+    background-color: #F1F1F1;
+  }
+
+  .resume-skill-container>div img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0px;
+  }
+
+  .resume-skill-container>div p {
+    padding-bottom: 20px;
+  }
+
+  /* Resume End */
 
   /* Projects */
 
@@ -290,7 +390,6 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 0px;
   }
 
   #ildangbaek-img {
