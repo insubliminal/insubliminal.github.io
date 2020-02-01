@@ -353,7 +353,7 @@ footer {
   .resume-skill-container>div {
     text-align: center;
     min-width: 320px;
-    width: 70%;
+    width: 99%;
     height: 320px;
     margin: 2px 0px;
     background-color: #F1F1F1;
@@ -368,7 +368,7 @@ footer {
   }
 
   .resume-skill-container>div p {
-    padding-bottom: 20px;
+    padding: 0px 5px 20px 5px;
   }
 
   /* Resume End */
